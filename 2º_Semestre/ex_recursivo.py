@@ -1,4 +1,4 @@
-'''#1) Faça uma função recursiva que calcule e retorne o fatorial de um número inteiro N.
+#1) Faça uma função recursiva que calcule e retorne o fatorial de um número inteiro N.
 def fat(N):
     if N == 0 or N == 1:
         return 1
@@ -53,7 +53,7 @@ def soma(n):
         return n + soma(n-1)
 
 numero = int(input('informe um numero'))
-print('a soma é', soma(numero))'''
+print('a soma é', soma(numero))
 
 #6) Crie um programa em Python que contenha uma função recursiva que receba dois inteiros positivos k e n e calcule k. Utilize apenas multiplicações. 
 #O programa principal deve solicitar ao usuário os valores de k e n e imprimir o resultado da chamada da função.
